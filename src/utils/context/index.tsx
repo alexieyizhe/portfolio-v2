@@ -10,9 +10,11 @@ export interface SiteState {
 
 export const defaultState: SiteState = {
   easterEggActive: false,
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   activateEasterEgg: () => {},
 
   darkModeActive: false,
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   toggleDarkMode: () => {},
 };
 

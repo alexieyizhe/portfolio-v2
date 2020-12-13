@@ -102,7 +102,7 @@ const Icon: React.FC<IconProps> = ({
           </svg>
           {animate && (
             <SvgLines
-              animate={animateType || (isHovering || hover) || "hide"}
+              animate={animateType || isHovering || hover || "hide"}
               duration={animateDuration || DEFAULT_ANIM_DURATION}
             >
               <svg

@@ -9,9 +9,7 @@ export { default as GearIcon } from "./particles/gear.inline.svg";
 export { default as PlusIcon } from "./particles/plus.inline.svg";
 export { default as PresentIcon } from "./particles/present.inline.svg";
 export { default as LightbulbIcon } from "./particles/lightbulb.inline.svg";
-export {
-  default as ShoppingCartIcon,
-} from "./particles/shopping-cart.inline.svg";
+export { default as ShoppingCartIcon } from "./particles/shopping-cart.inline.svg";
 export { default as CircleParticleImg } from "./particles/circle.svg";
 export { default as SquareParticleImg } from "./particles/square.svg";
 export { default as TriangleParticleImg } from "./particles/triangle.svg";
